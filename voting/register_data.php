@@ -1,4 +1,5 @@
 <?php
+use AfricasTalking\SDK\AfricasTalking;
 require_once('africastalking-php-master/src/AfricasTalking.php');
 
 ini_set('display_errors', 1);

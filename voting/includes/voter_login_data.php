@@ -1,4 +1,7 @@
 <?php
+use AfricasTalking\SDK\AfricasTalking;
+require_once('africastalking-php-master/src/AfricasTalking.php');
+
         $reg_query="SELECT * FROM register WHERE phone='$phone'";
         $reg_data=mysqli_query($con,$reg_query);
         $result=mysqli_fetch_assoc($reg_data);

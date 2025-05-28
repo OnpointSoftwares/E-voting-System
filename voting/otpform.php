@@ -1,16 +1,46 @@
 <?php
-
-error_reporting(0);
+use AfricasTalking\SDK\AfricasTalking;
+require_once('africastalking-php-master/src/AfricasTalking.php');
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
 session_start();
 $con = mysqli_connect("localhost", "root", "", "voting");
 $phone = $_POST['phone'];
 
-if($_SESSION['phone']==null)
+if($_POST['phone']!=null)
 {
     include "includes/voter_login_data.php";
 }
 
 echo $_SESSION['otp'];
+send_sms($phone);
+
+function send_sms($phone)
+{
+    $username="voting2025";
+    $apiKey="atsk_43275c85d8ce0d592027241dfd1c0e25263587306b8704d077361b77bda26cdadfe95800";
+    $message="Your OTP is $_SESSION[otp]";
+    $to="$phone";
+    $at = new AfricasTalking($username, $apiKey);
+    $sms = $at->sms();
+    $result = $sms->send($to, $message);
+    if($result['status']=='success')
+    {
+        echo "
+        <script>
+        alert('OTP send on your phone')
+        </script>
+    ";
+    }
+    else
+    {
+        echo "
+        <script>
+        alert('Failed to send OTP!')
+        </script>
+    ";
+    }
+}
 
 ?>
 
