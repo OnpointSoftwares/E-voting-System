@@ -31,6 +31,29 @@
 
                     if(preg_match("/^\d+\.?\d*$/",$phone) && strlen($phone)==10)
                     {
+                        $username="voting2025";
+                        $apiKey="atsk_43275c85d8ce0d592027241dfd1c0e25263587306b8704d077361b77bda26cdadfe95800";
+                        $message="Your OTP is $otp";
+                        $to="$phone";
+                        $at = new AfricasTalking($username, $apiKey);
+                        $sms = $at->sms();
+                        $result = $sms->send($to, $message);
+                        if($result['status']=='success')
+                        {
+                            echo "
+                            <script>
+                            alert('OTP send on your phone')
+                            </script>
+                        ";
+                        }
+                        else
+                        {
+                            echo "
+                            <script>
+                            alert('Failed to send OTP!')
+                            </script>
+                        ";
+                        }
 
                         $fields = array(
                         "variables_values" => "$otp",
