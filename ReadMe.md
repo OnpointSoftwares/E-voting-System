@@ -71,3 +71,13 @@ This is a web-based online voting system that allows voters to vote for their pr
 
     1. Email: vincentbettoh@gmail.com
     2. Phone: +254702502952
+## cloning
+
+    1. git clone https://github.com/vincentbettoh/E-Voting-System.git
+    2. cd E-Voting-System
+    3. cd voting
+    4. cd includes
+    5. cd africastalking-php-master
+    6. composer install
+    7. cd ..
+    
