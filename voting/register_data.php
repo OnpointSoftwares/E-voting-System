@@ -1,6 +1,6 @@
 <?php
 use AfricasTalking\SDK\AfricasTalking;
-require_once('africastalking-php-master/src/AfricasTalking.php');
+require_once('../africastalking-php-master/src/AfricasTalking.php');
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

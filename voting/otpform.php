@@ -1,8 +1,9 @@
 <?php
-use AfricasTalking\SDK\AfricasTalking;
-require_once('africastalking-php-master/src/AfricasTalking.php');
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
+use AfricasTalking\SDK\AfricasTalking;
+require_once('africastalking-php-master/src/AfricasTalking.php');
+
 session_start();
 $con = mysqli_connect("localhost", "root", "", "voting");
 $phone = $_POST['phone'];
@@ -24,6 +25,7 @@ function send_sms($phone)
     $at = new AfricasTalking($username, $apiKey);
     $sms = $at->sms();
     $result = $sms->send($to, $message);
+    print_r($result);
     if($result['status']=='success')
     {
         echo "

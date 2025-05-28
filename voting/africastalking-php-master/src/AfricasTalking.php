@@ -2,7 +2,7 @@
 namespace AfricasTalking\SDK;
 
 use GuzzleHttp\Client;
-
+require_once(__DIR__ . '/../../../vendor/autoload.php');
 class AfricasTalking
 {
 	const BASE_DOMAIN         = "africastalking.com";
