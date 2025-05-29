@@ -74,7 +74,7 @@ use AfricasTalking\SDK\AfricasTalking;
                         $to = '+' . $to;
                     }
                     
-                    $username = "voting2025";
+                    $username = "voting_2025";
                     $apiKey = "atsk_43275c85d8ce0d592027241dfd1c0e25263587306b8704d077361b77bda26cdadfe95800";
                     $message = "Thank you for Registering in Online Voting System";
                     
