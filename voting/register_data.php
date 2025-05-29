@@ -26,10 +26,10 @@ use AfricasTalking\SDK\AfricasTalking;
             $date2=new DateTime("now");
             $dateDiff=$date1->diff($date2);
            
-            if(strlen($phone)!=13)
+            if(strlen($phone)!=10)
             {
                 echo "<script> 
-                        alert('Phone Number must 13 digit')
+                        alert('Phone Number must 10 digit')
                         history.back()
                     </script>";
             }
@@ -100,12 +100,12 @@ use AfricasTalking\SDK\AfricasTalking;
                         }
                         
                         // Return JSON response
-                        echo json_encode([
+                        /*echo json_encode([
                             'status' => $smsStatus,
                             'phone' => $to,
                             'message' => $message,
                             'details' => $result
-                        ]);
+                        ]);*/
                         
                     } catch (Exception $e) {
                         error_log("SMS Error: " . $e->getMessage());
@@ -119,7 +119,7 @@ use AfricasTalking\SDK\AfricasTalking;
                    echo"<script>
                 
                             alert('Registration Successfully!')
-                            //location.href='index.php'
+                            location.href='index.php'
                         </script>";
                 }
                 else
