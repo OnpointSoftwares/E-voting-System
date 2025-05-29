@@ -16,6 +16,8 @@ This is a web-based online voting system that allows voters to vote for their pr
     8. Candidate Voting
     9. Candidate Results
     10. Candidate Logout
+    11. OTP send to user phone
+    
 ## Technologies
 
     1. HTML
