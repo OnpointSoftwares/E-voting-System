@@ -82,4 +82,56 @@ This is a web-based online voting system that allows voters to vote for their pr
     5. cd africastalking-php-master
     6. composer install
     7. cd ..
+## Setting Up Africa's Talking SMS Service
+
+1. **Create an Africa's Talking Account**
+   - Go to [Africa's Talking](https://account.africastalking.com/auth/register)
+   - Sign up for a new account (sandbox account is free for testing)
+   - Verify your email address
+
+2. **Create an App**
+   - Log in to your Africa's Talking account
+   - Go to the dashboard and click on "Create App"
+   - Name your app (e.g., "VotingSystem")
+   - Select "SMS" as the service
+   - Click "Create App"
+
+3. **Get Your API Key**
+   - Go to the "Settings" section
+   - Under "API Keys", find your API key
+   - Copy both the API Key and your Username (usually starts with 'sandbox' for test accounts)
+
+4. **Update Configuration**
+   In the following files, update the Africa's Talking credentials:
+   - `voting/register_data.php`
+   - `voting/otpform.php`
+   
+   Look for these lines and replace with your credentials:
+   ```php
+   $username = "voting_2025";  // Replace with your Africa's Talking username
+   $apiKey = "your_api_key_here";  // Replace with your API key
+   ```
+
+5. **Phone Number Format**
+   - The system expects phone numbers in international format (e.g., +2547XXXXXXXX)
+   - For testing in sandbox, you must use approved test numbers
+   - To add test numbers, go to your Africa's Talking dashboard → SMS → Settings → Test Credentials
+
+6. **Testing**
+   - Test the registration process with a verified test number
+   - Check the Africa's Talking dashboard for SMS delivery status
+   - Monitor your application's error logs for any issues
+
+7. **Going Live**
+   - Once testing is complete, contact Africa's Talking to upgrade to a production account
+   - You'll need to provide business details and use case information
+   - Production accounts require a minimum credit purchase
+
+8. **Troubleshooting**
+   - **401 Unauthorized**: Check your API key and username
+   - **Invalid Phone Number**: Ensure numbers are in international format
+   - **SMS Not Delivering**: Check account balance and number verification status
+   - **Sandbox Restrictions**: Remember sandbox has daily limits and works only with approved numbers
+
+For more information, visit [Africa's Talking Documentation](https://developers.africastalking.com/)
     
