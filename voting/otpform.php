@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 use AfricasTalking\SDK\AfricasTalking;
-require_once('vend');
+require_once('vendor/autoload.php');
 
 session_start();
 $con = mysqli_connect("localhost", "root", "", "voting");
