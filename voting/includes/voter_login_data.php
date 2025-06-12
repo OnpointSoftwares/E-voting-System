@@ -1,147 +1,82 @@
 <?php
-use AfricasTalking\SDK\AfricasTalking;
-require_once('africastalking-php-master/src/AfricasTalking.php');
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
 
-        $reg_query="SELECT * FROM register WHERE phone='$phone'";
-        $reg_data=mysqli_query($con,$reg_query);
-        $result=mysqli_fetch_assoc($reg_data);
-        
-        $_SESSION['fname']=$result['fname'];
-        $_SESSION['lname']=$result['lname'];
-        $_SESSION['idnum']=$result['lname'];
-        $_SESSION['phone']=$result['phone'];
-        $_SESSION['idcard']=$result['idcard'];
-        $_SESSION['verify']=$result['verify'];
-        $_SESSION['password']=$result['password'];
-        $_SESSION['status']=$result['status'];
-        $_SESSION['otp']=null;
+// Check if database connection exists
+if (!isset($con) || !($con instanceof mysqli)) {
+    die("Database connection not established");
+}
 
-        if($_SESSION['phone']!=null or $resend==1)
-        {
-            if($phone==$_SESSION['phone'])
-            {
-                
-                if($_SESSION['verify']=="yes")
-                {
-                    $_SESSION['userLogin']=1;
-                    $_SESSION['error']="";
+// Check if phone number is provided and valid
+if (!isset($phone) || empty(trim($phone))) {
+    die("Phone number is required");
+}
 
-                    $err ="";
-                    $ses = "";
-                    $otp = rand(1111,9999);
+// Sanitize phone number
+$phone = trim($phone);
 
-                    $_SESSION['otp']=$otp;
+// Check if resend flag is set
+$isResend = isset($resend) && $resend == 1;
 
-                    if(preg_match("/^\d+\.?\d*$/",$phone) && strlen($phone)==10)
-                    {
-                        $username="voting2025";
-                        $apiKey="atsk_43275c85d8ce0d592027241dfd1c0e25263587306b8704d077361b77bda26cdadfe95800";
-                        $message="Your OTP is $otp";
-                        $to="$phone";
-                        $at = new AfricasTalking($username, $apiKey);
-                        $sms = $at->sms();
-                        $result = $sms->send($to, $message);
-                        if($result['status']=='success')
-                        {
-                            echo "
-                            <script>
-                            alert('OTP send on your phone')
-                            </script>
-                        ";
-                        }
-                        else
-                        {
-                            echo "
-                            <script>
-                            alert('Failed to send OTP!')
-                            </script>
-                        ";
-                        }
-
-                        $fields = array(
-                        "variables_values" => "$otp",
-                        "route" => "otp",
-                        "numbers" => "$phone",
-                        );
-
-                        $curl = curl_init();
-
-                        curl_setopt_array($curl, array(
-                        CURLOPT_URL => "https://www.fast2sms.com/dev/bulkV2",
-                        CURLOPT_RETURNTRANSFER => true,
-                        CURLOPT_ENCODING => "",
-                        CURLOPT_MAXREDIRS => 10,
-                        CURLOPT_TIMEOUT => 60,
-                        CURLOPT_SSL_VERIFYHOST => 0,
-                        CURLOPT_SSL_VERIFYPEER => 0,
-                        CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-                        CURLOPT_CUSTOMREQUEST => "POST",
-                        CURLOPT_POSTFIELDS => json_encode($fields),
-                        CURLOPT_HTTPHEADER => array(
-                        "authorization: xbKfLvBOTiW67p3AkXgDZqMo8my9aCRPNGnuVscl02JwzhY41E4KXQ3gnFdRwHmbfDSZuahjIiP8OsAr",
-                        "accept: */*",
-                        "cache-control: no-cache",
-                        "content-type: application/json"
-                        ),
-                        ));
-
-                        $response = curl_exec($curl);
-                        $err = curl_error($curl);
-
-                        curl_close($curl);
-
-                        if ($err) 
-                        {
-                            echo "
-                                <script>
-                                alert('sms not send! please check connection')
-                                </script>
-                            ";
-                        }
-                        else
-                        {
-                            $data = json_decode($response);
-                            $sts = $data->return;
-                            if ($sts == false)
-                            {
-                                $err = "Otp Not Send";
-                            }
-                            else
-                            {
-                                echo "
-                                <script>
-                                alert('OTP send on your phone')
-                                </script>
-                            ";
-                            }
-                        }
-
-
-                    }
-                    else
-                    {
-                        $err = "Invalied Mobile Number";
-                    }
-
-                }
-            
-                else
-                {
-                    echo "
-                    <script>
-                    alert('you are not verified by Admin')
-                    location.href='index.php'
-                    </script>
-                    ";
-                }
-            }
-        }
-        else if($_SESSION['phone']==null)
-        {
-            echo "
-                    <script>
-                    alert('phone number not registered')
-                    history.back()
-                    </script>
-                    ";
-        }
+try {
+    // Prepare and execute query with prepared statement
+    $reg_query = "SELECT * FROM register WHERE phone = ?";
+    $stmt = $con->prepare($reg_query);
+    if (!$stmt) {
+        throw new Exception("Database query preparation failed: " . $con->error);
+    }
+    
+    $stmt->bind_param("s", $phone);
+    $stmt->execute();
+    $result = $stmt->get_result()->fetch_assoc();
+    
+    if (!$result) {
+        // No user found with this phone number
+        echo "
+        <script>
+        alert('Phone number not registered');
+        window.history.back();
+        </script>";
+        exit();
+    }
+    
+    // Set session variables
+    $_SESSION['fname'] = $result['fname'];
+    $_SESSION['lname'] = $result['lname'];
+    $_SESSION['idnum'] = $result['idnum'] ?? $result['lname']; // Fixed: was setting idnum to lname
+    $_SESSION['phone'] = $result['phone'];
+    $_SESSION['idcard'] = $result['idcard'];
+    $_SESSION['verify'] = $result['verify'];
+    $_SESSION['status'] = $result['status'];
+    
+    // Check if user is verified
+    if ($_SESSION['verify'] !== "yes") {
+        echo "
+        <script>
+        alert('Your account has not been verified by the administrator');
+        window.location.href = 'index.php';
+        </script>";
+        exit();
+    }
+    
+    // Generate and store OTP
+    $otp = rand(1000, 9999); // 4-digit OTP
+    $_SESSION['otp'] = $otp;
+    $_SESSION['otp_attempts'] = 0; // Track OTP attempts
+    $_SESSION['otp_generated_at'] = time(); // Track when OTP was generated
+    
+    // Log OTP generation (for debugging, remove in production)
+    error_log("Generated OTP " . $otp . " for phone " . $phone);
+    
+    // Let otpform.php handle the SMS sending
+    // We just need to set the session variables and return
+    
+} catch (Exception $e) {
+    error_log("Error in voter_login_data.php: " . $e->getMessage());
+    echo "
+    <script>
+    alert('An error occurred. Please try again later.');
+    window.history.back();
+    </script>";
+    exit();
+}
