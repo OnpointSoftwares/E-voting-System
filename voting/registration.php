@@ -26,6 +26,24 @@
                     <option value="Passport">Passport</option>
                     <option value="Other ID Card">Other ID Card</option>
                 </select>
+                <label class="label"><sup class="req_symbol">*</sup>Email:</label>
+                <input type="email" name="email" id="email" class="input" placeholder="Enter Email" required oninput="validateEmail(this)">
+<span id="emailError" style="color: red;"></span>
+
+<script>
+function validateEmail(input) {
+    const emailPattern = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,6}$/;
+    const emailError = document.getElementById('emailError');
+
+    if (emailPattern.test(input.value)) {
+        emailError.textContent = ''; // Clear error message if valid
+        input.setCustomValidity(''); // Clear custom validation message
+    } else {
+        emailError.textContent = 'Please enter a valid email address.';
+        input.setCustomValidity('Invalid email format'); // Set custom validation message
+    }
+}
+</script>
                 <label class="label" id="myid1"><sup class="req_symbol">*</sup>ID NUMBER:</label>
 <input type="text" name="idnum" id="idnum" placeholder="Enter ID Number" class="input"
        pattern="^[a-zA-Z0-9]{8,9}$"
@@ -68,7 +86,14 @@ function validateIDNumber(input) {
        pattern="^(\+?\d{1,3}[- ]?)?\d{10}$"
        required
        oninput="validatePhoneNumber(this)">
+       
 <span id="phoneError" style="color: red;"></span>
+
+<label class="label"><sup class="req_symbol">*</sup>Password:</label>
+<input type="password" name="password" id="password" class="input" placeholder="Enter Password" required>
+<label class="label"><sup class="req_symbol">*</sup>Confirm Password:</label>
+<input type="password" name="confirm_password" id="confirm_password" class="input" placeholder="Confirm Password" required>
+<span id="passwordError" style="color: red;"></span>
 
 <script>
 function validatePhoneNumber(input) {

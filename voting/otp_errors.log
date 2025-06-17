@@ -1,0 +1,1441 @@
+[16-Jun-2025 19:45:59 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 19:45:59 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 19:45:59 Europe/Berlin] Session data: Array
+(
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 23459876
+    [phone] => 0702502952
+    [idcard] => img/5writing.png
+    [verify] => yes
+    [status] => not voted
+    [otp] => 5446
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750095763
+)
+
+[16-Jun-2025 19:45:59 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 19:45:59 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 19:45:59 Europe/Berlin] Database connection successful
+[16-Jun-2025 19:45:59 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 19:45:59 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 19:45:59 Europe/Berlin] Generated OTP 6392 for phone 0702502952
+[16-Jun-2025 19:45:59 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 19:45:59 Europe/Berlin] OTP found in session: 6392
+[16-Jun-2025 19:45:59 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 19:46:28 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 19:46:28 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 19:46:28 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 19:46:28 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 19:46:28 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 19:46:28 Europe/Berlin] Database connection successful
+[16-Jun-2025 19:46:28 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 19:46:28 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 19:46:28 Europe/Berlin] Generated OTP 5594 for phone 0702502952
+[16-Jun-2025 19:46:28 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 19:46:28 Europe/Berlin] OTP found in session: 5594
+[16-Jun-2025 19:46:29 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 19:49:48 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 19:49:48 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 19:49:48 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 19:49:48 Europe/Berlin] POST data: Array
+(
+    [phone] => 0737591110
+    [login] => 
+)
+
+[16-Jun-2025 19:49:48 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 19:49:48 Europe/Berlin] Database connection successful
+[16-Jun-2025 19:49:48 Europe/Berlin] Processing phone number: 0737591110
+[16-Jun-2025 19:49:48 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 19:49:48 Europe/Berlin] Generated OTP 9790 for phone 0737591110
+[16-Jun-2025 19:49:48 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 19:49:48 Europe/Berlin] OTP found in session: 9790
+[16-Jun-2025 19:49:49 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 1/1 Total Cost: KES 0.8000
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => KES 0.8000
+                                    [messageId] => ATXid_37fdf2b0b9910e6ce6d9d2eae803b7af
+                                    [messageParts] => 1
+                                    [number] => +254737591110
+                                    [status] => Success
+                                    [statusCode] => 100
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 19:56:54 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 19:56:54 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 19:56:54 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 19:56:54 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 19:56:54 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 19:56:54 Europe/Berlin] Database connection successful
+[16-Jun-2025 19:56:54 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 19:56:54 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 19:56:54 Europe/Berlin] Generated OTP 4819 for phone 0702502952
+[16-Jun-2025 19:56:54 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 19:56:54 Europe/Berlin] OTP found in session: 4819
+[16-Jun-2025 19:56:59 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 19:58:58 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 19:58:58 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 19:58:58 Europe/Berlin] Session data: Array
+(
+    [phone] => 0702502952
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 23459876
+    [idcard] => img/5writing.png
+    [verify] => yes
+    [status] => not voted
+    [otp] => 4819
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750096614
+)
+
+[16-Jun-2025 19:58:58 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 19:58:58 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 19:58:58 Europe/Berlin] Database connection successful
+[16-Jun-2025 19:58:58 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 19:58:58 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 19:58:58 Europe/Berlin] Generated OTP 7288 for phone 0702502952
+[16-Jun-2025 19:58:58 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 19:58:58 Europe/Berlin] OTP found in session: 7288
+[16-Jun-2025 19:58:59 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:05:33 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:05:33 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:05:33 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 20:05:33 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 20:05:33 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:05:33 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:05:33 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 20:05:33 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 20:05:33 Europe/Berlin] Generated OTP 8876 for phone 0702502952
+[16-Jun-2025 20:05:33 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 20:05:33 Europe/Berlin] OTP found in session: 8876
+[16-Jun-2025 20:05:36 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:05:36 Europe/Berlin] Generated OTP 6356 for phone 0702502952
+[16-Jun-2025 20:05:36 Europe/Berlin] TEST MODE: OTP 6356 for phone 0702502952
+[16-Jun-2025 20:18:25 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:18:25 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:18:25 Europe/Berlin] Session data: Array
+(
+    [adminLogin] => 1
+    [error] => 
+    [total_cand] => 8
+    [total_voters] => 5
+    [total_position] => 2
+    [email] => shadrack@gmail.com
+    [password] => pass@123
+    [name] => ssvps
+)
+
+[16-Jun-2025 20:18:25 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 20:18:25 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:18:25 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:18:25 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 20:18:25 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 20:18:25 Europe/Berlin] Generated OTP 4024 for phone 0702502952
+[16-Jun-2025 20:18:25 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 20:18:25 Europe/Berlin] OTP found in session: 4024
+[16-Jun-2025 20:18:26 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:18:26 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Table 'voting.voters' doesn't exist in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php:138
+Stack trace:
+#0 /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php(138): mysqli->query('SELECT * FROM v...')
+#1 {main}
+  thrown in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 138
+[16-Jun-2025 20:18:55 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:18:55 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:18:55 Europe/Berlin] Session data: Array
+(
+    [adminLogin] => 1
+    [error] => 
+    [total_cand] => 8
+    [total_voters] => 5
+    [total_position] => 2
+    [email] => shadrack@gmail.com
+    [password] => pass@123
+    [name] => ssvps
+    [phone] => 0702502952
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 37482712
+    [idcard] => img/4cfc.png
+    [verify] => yes
+    [status] => not voted
+    [otp] => 4024
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750097905
+)
+
+[16-Jun-2025 20:18:55 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 20:18:55 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:18:55 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:18:55 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 20:18:55 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 20:18:55 Europe/Berlin] Generated OTP 3780 for phone 0702502952
+[16-Jun-2025 20:18:55 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 20:18:55 Europe/Berlin] OTP found in session: 3780
+[16-Jun-2025 20:18:56 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:19:00 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[16-Jun-2025 20:19:00 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 174
+[16-Jun-2025 20:19:00 Europe/Berlin] Generated OTP 3625 for phone 0702502952
+[16-Jun-2025 20:19:00 Europe/Berlin] User is blacklisted. OTP 3625 for phone 0702502952
+[16-Jun-2025 20:24:22 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:24:22 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:24:22 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 20:24:22 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 20:24:22 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:24:22 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:24:22 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 20:24:22 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 20:24:22 Europe/Berlin] Generated OTP 8483 for phone 0702502952
+[16-Jun-2025 20:24:22 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 20:24:22 Europe/Berlin] OTP found in session: 8483
+[16-Jun-2025 20:24:23 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:24:27 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[16-Jun-2025 20:24:27 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 174
+[16-Jun-2025 20:24:27 Europe/Berlin] Generated OTP 1575 for phone 0702502952
+[16-Jun-2025 20:24:27 Europe/Berlin] User is blacklisted. OTP 1575 for phone 0702502952
+[16-Jun-2025 20:29:51 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:29:51 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:29:51 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 20:29:51 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 20:29:51 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:29:51 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:29:51 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 20:29:51 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 20:29:51 Europe/Berlin] Generated OTP 2590 for phone 0702502952
+[16-Jun-2025 20:29:51 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 20:29:51 Europe/Berlin] OTP found in session: 2590
+[16-Jun-2025 20:29:52 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:29:56 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[16-Jun-2025 20:29:56 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 174
+[16-Jun-2025 20:29:56 Europe/Berlin] Generated OTP 4367 for phone 0702502952
+[16-Jun-2025 20:29:56 Europe/Berlin] User is blacklisted. OTP 4367 for phone 0702502952
+[16-Jun-2025 20:32:49 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:32:49 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:32:49 Europe/Berlin] Session data: Array
+(
+    [phone] => 0702502952
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 37482712
+    [idcard] => img/4cfc.png
+    [verify] => yes
+    [status] => not voted
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750098591
+    [otp_message] => We couldn't send an SMS to your number. Please check your email for the OTP.
+    [otp_verified] => 1
+)
+
+[16-Jun-2025 20:32:49 Europe/Berlin] POST data: Array
+(
+)
+
+[16-Jun-2025 20:32:49 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:32:49 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:32:49 Europe/Berlin] No phone number provided in POST data
+[16-Jun-2025 20:32:49 Europe/Berlin] === CRITICAL ERROR ===
+[16-Jun-2025 20:32:49 Europe/Berlin] Message: Phone number is required
+[16-Jun-2025 20:32:49 Europe/Berlin] File: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php (Line: 58)
+[16-Jun-2025 20:32:49 Europe/Berlin] Stack Trace: #0 {main}
+[16-Jun-2025 20:32:49 Europe/Berlin] POST Data: Array
+(
+)
+
+[16-Jun-2025 20:32:49 Europe/Berlin] SESSION Data: Array
+(
+    [phone] => 0702502952
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 37482712
+    [idcard] => img/4cfc.png
+    [verify] => yes
+    [status] => not voted
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750098591
+    [otp_message] => We couldn't send an SMS to your number. Please check your email for the OTP.
+    [otp_verified] => 1
+)
+
+[16-Jun-2025 20:32:49 Europe/Berlin] SERVER Data: Array
+(
+    [UNIQUE_ID] => aFBjUfDOUmZXL6VccqhHmgAAAAg
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Linux"
+    [HTTP_REFERER] => http://localhost/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_COOKIE] => PHPSESSID=ripprhre6iif3tel6aogsdku6q
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [LD_LIBRARY_PATH] => /opt/lampp/lib:/opt/lampp/lib
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [SERVER_ADMIN] => you@example.com
+    [SCRIPT_FILENAME] => /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REMOTE_PORT] => 50670
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [SCRIPT_NAME] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [PHP_SELF] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REQUEST_TIME_FLOAT] => 1750098769.7355
+    [REQUEST_TIME] => 1750098769
+)
+
+[16-Jun-2025 20:32:49 Europe/Berlin] === END ERROR ===
+[16-Jun-2025 20:33:02 Europe/Berlin] === OTP Form Script Started ===
+[16-Jun-2025 20:33:02 Europe/Berlin] Session started. Session ID: ripprhre6iif3tel6aogsdku6q
+[16-Jun-2025 20:33:02 Europe/Berlin] Session data: Array
+(
+)
+
+[16-Jun-2025 20:33:02 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[16-Jun-2025 20:33:02 Europe/Berlin] Attempting to connect to database...
+[16-Jun-2025 20:33:02 Europe/Berlin] Database connection successful
+[16-Jun-2025 20:33:02 Europe/Berlin] Processing phone number: 0702502952
+[16-Jun-2025 20:33:02 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[16-Jun-2025 20:33:02 Europe/Berlin] Generated OTP 5774 for phone 0702502952
+[16-Jun-2025 20:33:02 Europe/Berlin] Successfully included voter login data file
+[16-Jun-2025 20:33:02 Europe/Berlin] OTP found in session: 5774
+[16-Jun-2025 20:33:03 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[16-Jun-2025 20:33:07 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[16-Jun-2025 20:33:07 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 174
+[16-Jun-2025 20:33:07 Europe/Berlin] Generated OTP 8665 for phone 0702502952
+[16-Jun-2025 20:33:07 Europe/Berlin] User is blacklisted. OTP 8665 for phone 0702502952
+[17-Jun-2025 07:26:20 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 07:26:20 Europe/Berlin] Session started. Session ID: kgfqpqaarqunbgl9egk28tvh5j
+[17-Jun-2025 07:26:20 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 07:26:20 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 07:26:20 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 07:26:20 Europe/Berlin] Database connection successful
+[17-Jun-2025 07:26:20 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 07:26:20 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 07:26:20 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 07:26:20 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 07:26:20 Europe/Berlin] Generated OTP 4507 for phone 0702502952
+[17-Jun-2025 07:26:20 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 07:26:20 Europe/Berlin] OTP found in session: 4507
+[17-Jun-2025 07:26:21 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 07:26:24 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[17-Jun-2025 07:26:24 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 173
+[17-Jun-2025 07:26:24 Europe/Berlin] Generated OTP 3989 for phone 0702502952
+[17-Jun-2025 07:26:24 Europe/Berlin] User is blacklisted. OTP 3989 for phone 0702502952
+[17-Jun-2025 07:55:03 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 07:55:05 Europe/Berlin] Session started. Session ID: kgfqpqaarqunbgl9egk28tvh5j
+[17-Jun-2025 07:55:05 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 07:55:05 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 07:55:05 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 07:55:06 Europe/Berlin] Database connection successful
+[17-Jun-2025 07:55:08 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 07:55:08 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 07:55:09 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 07:55:09 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 07:55:12 Europe/Berlin] Generated OTP 7046 for phone 0702502952
+[17-Jun-2025 07:55:12 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 07:55:12 Europe/Berlin] OTP found in session: 7046
+[17-Jun-2025 07:55:33 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 07:55:38 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[17-Jun-2025 07:55:38 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 173
+[17-Jun-2025 07:55:38 Europe/Berlin] Generated OTP 7289 for phone 0702502952
+[17-Jun-2025 07:55:38 Europe/Berlin] User is blacklisted. OTP 7289 for phone 0702502952
+[17-Jun-2025 13:02:31 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:02:31 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:02:31 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:02:31 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:02:31 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:02:31 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:02:31 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:02:31 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:02:31 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:02:31 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:02:32 Europe/Berlin] Generated OTP 4882 for phone 0702502952
+[17-Jun-2025 13:02:32 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:02:32 Europe/Berlin] OTP found in session: 4882
+[17-Jun-2025 13:02:33 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:02:37 Europe/Berlin] OTP sent via email to vincentbettoh@gmail.com
+[17-Jun-2025 13:02:37 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 173
+[17-Jun-2025 13:02:37 Europe/Berlin] Generated OTP 2357 for phone 0702502952
+[17-Jun-2025 13:02:37 Europe/Berlin] User is blacklisted. OTP 2357 for phone 0702502952
+[17-Jun-2025 13:15:34 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:15:34 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:15:34 Europe/Berlin] Session data: Array
+(
+    [phone] => 0702502952
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 37482712
+    [idcard] => img/4cfc.png
+    [verify] => yes
+    [status] => not voted
+    [otp] => 2357
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750158152
+    [otp_message] => We couldn't send an SMS to your number. Please check your email for the OTP.
+    [password_verified] => 1
+    [total_cand] => 8
+    [total_voters] => 5
+    [total_position] => 2
+    [error] => Wrong OTP Enter
+)
+
+[17-Jun-2025 13:15:34 Europe/Berlin] POST data: Array
+(
+)
+
+[17-Jun-2025 13:15:34 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:15:34 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:15:34 Europe/Berlin] No phone number provided in POST data
+[17-Jun-2025 13:15:34 Europe/Berlin] === CRITICAL ERROR ===
+[17-Jun-2025 13:15:34 Europe/Berlin] Message: Phone number is required
+[17-Jun-2025 13:15:34 Europe/Berlin] File: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php (Line: 57)
+[17-Jun-2025 13:15:34 Europe/Berlin] Stack Trace: #0 {main}
+[17-Jun-2025 13:15:34 Europe/Berlin] POST Data: Array
+(
+)
+
+[17-Jun-2025 13:15:34 Europe/Berlin] SESSION Data: Array
+(
+    [phone] => 0702502952
+    [fname] => VINCENT
+    [lname] => KIPKURUI
+    [idnum] => 37482712
+    [idcard] => img/4cfc.png
+    [verify] => yes
+    [status] => not voted
+    [otp] => 2357
+    [otp_attempts] => 0
+    [otp_generated_at] => 1750158152
+    [otp_message] => We couldn't send an SMS to your number. Please check your email for the OTP.
+    [password_verified] => 1
+    [total_cand] => 8
+    [total_voters] => 5
+    [total_position] => 2
+    [error] => Wrong OTP Enter
+)
+
+[17-Jun-2025 13:15:34 Europe/Berlin] SERVER Data: Array
+(
+    [UNIQUE_ID] => aFFOVt9MbsE9T7__ph6fEAAAAAo
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_SEC_FETCH_SITE] => none
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_USER] => ?1
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Linux"
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_COOKIE] => PHPSESSID=f8oqvek0ukr2csbvncgg0jd5n9
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [LD_LIBRARY_PATH] => /opt/lampp/lib:/opt/lampp/lib
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [SERVER_ADMIN] => you@example.com
+    [SCRIPT_FILENAME] => /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REMOTE_PORT] => 56028
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [SCRIPT_NAME] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [PHP_SELF] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REQUEST_TIME_FLOAT] => 1750158934.2632
+    [REQUEST_TIME] => 1750158934
+)
+
+[17-Jun-2025 13:15:34 Europe/Berlin] === END ERROR ===
+[17-Jun-2025 13:17:08 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:17:08 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:17:08 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:17:08 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:17:08 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:17:08 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:17:08 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:17:08 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:17:08 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:17:08 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:17:08 Europe/Berlin] Generated OTP 2356 for phone 0702502952
+[17-Jun-2025 13:17:08 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:17:08 Europe/Berlin] OTP found in session: 2356
+[17-Jun-2025 13:17:08 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:17:09 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:17:09 Europe/Berlin] Generated OTP 6506 for phone 0702502952
+[17-Jun-2025 13:17:09 Europe/Berlin] User is blacklisted. OTP 6506 for phone 0702502952
+[17-Jun-2025 13:18:33 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:18:33 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:18:33 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:18:33 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:18:33 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:18:33 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:18:33 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:18:33 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:18:33 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:18:33 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:18:33 Europe/Berlin] Generated OTP 4285 for phone 0702502952
+[17-Jun-2025 13:18:33 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:18:33 Europe/Berlin] OTP found in session: 4285
+[17-Jun-2025 13:18:34 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:18:34 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:18:34 Europe/Berlin] Generated OTP 3510 for phone 0702502952
+[17-Jun-2025 13:18:34 Europe/Berlin] User is blacklisted. OTP 3510 for phone 0702502952
+[17-Jun-2025 13:19:46 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:19:46 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:19:46 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:19:46 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:19:46 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:19:46 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:19:46 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:19:46 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:19:46 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:19:46 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:19:46 Europe/Berlin] Generated OTP 2566 for phone 0702502952
+[17-Jun-2025 13:19:46 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:19:46 Europe/Berlin] OTP found in session: 2566
+[17-Jun-2025 13:19:46 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:19:46 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:19:46 Europe/Berlin] Generated OTP 2843 for phone 0702502952
+[17-Jun-2025 13:19:46 Europe/Berlin] User is blacklisted. OTP 2843 for phone 0702502952
+[17-Jun-2025 13:20:07 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:20:07 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:20:07 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:20:07 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:20:07 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:20:07 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:20:07 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:20:07 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:20:07 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:20:07 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:20:07 Europe/Berlin] Generated OTP 9919 for phone 0702502952
+[17-Jun-2025 13:20:07 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:20:07 Europe/Berlin] OTP found in session: 9919
+[17-Jun-2025 13:20:08 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:20:08 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:20:08 Europe/Berlin] Generated OTP 5477 for phone 0702502952
+[17-Jun-2025 13:20:08 Europe/Berlin] User is blacklisted. OTP 5477 for phone 0702502952
+[17-Jun-2025 13:22:52 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:22:52 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:22:52 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:22:52 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:22:52 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:22:52 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:22:52 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:22:52 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:22:52 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:22:52 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:23:08 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:23:08 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:23:08 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:23:08 Europe/Berlin] POST data: Array
+(
+)
+
+[17-Jun-2025 13:23:08 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:23:08 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:23:08 Europe/Berlin] No phone number provided in POST data
+[17-Jun-2025 13:23:08 Europe/Berlin] === CRITICAL ERROR ===
+[17-Jun-2025 13:23:08 Europe/Berlin] Message: Phone number is required
+[17-Jun-2025 13:23:08 Europe/Berlin] File: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php (Line: 57)
+[17-Jun-2025 13:23:08 Europe/Berlin] Stack Trace: #0 {main}
+[17-Jun-2025 13:23:08 Europe/Berlin] POST Data: Array
+(
+)
+
+[17-Jun-2025 13:23:08 Europe/Berlin] SESSION Data: Array
+(
+)
+
+[17-Jun-2025 13:23:08 Europe/Berlin] SERVER Data: Array
+(
+    [UNIQUE_ID] => aFFQHN9udUyTByfgbXGdvgAAAAE
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Linux"
+    [HTTP_REFERER] => http://localhost/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/index.php
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_COOKIE] => PHPSESSID=f8oqvek0ukr2csbvncgg0jd5n9
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [LD_LIBRARY_PATH] => /opt/lampp/lib:/opt/lampp/lib
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [SERVER_ADMIN] => you@example.com
+    [SCRIPT_FILENAME] => /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REMOTE_PORT] => 51152
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [SCRIPT_NAME] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [PHP_SELF] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REQUEST_TIME_FLOAT] => 1750159388.797
+    [REQUEST_TIME] => 1750159388
+)
+
+[17-Jun-2025 13:23:08 Europe/Berlin] === END ERROR ===
+[17-Jun-2025 13:23:10 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:23:10 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:23:10 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:23:10 Europe/Berlin] POST data: Array
+(
+)
+
+[17-Jun-2025 13:23:10 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:23:10 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:23:10 Europe/Berlin] No phone number provided in POST data
+[17-Jun-2025 13:23:10 Europe/Berlin] === CRITICAL ERROR ===
+[17-Jun-2025 13:23:10 Europe/Berlin] Message: Phone number is required
+[17-Jun-2025 13:23:10 Europe/Berlin] File: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php (Line: 57)
+[17-Jun-2025 13:23:10 Europe/Berlin] Stack Trace: #0 {main}
+[17-Jun-2025 13:23:10 Europe/Berlin] POST Data: Array
+(
+)
+
+[17-Jun-2025 13:23:10 Europe/Berlin] SESSION Data: Array
+(
+)
+
+[17-Jun-2025 13:23:10 Europe/Berlin] SERVER Data: Array
+(
+    [UNIQUE_ID] => aFFQHt9udUyTByfgbXGdwQAAAAE
+    [HTTP_HOST] => localhost
+    [HTTP_CONNECTION] => keep-alive
+    [HTTP_UPGRADE_INSECURE_REQUESTS] => 1
+    [HTTP_USER_AGENT] => Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36
+    [HTTP_ACCEPT] => text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+    [HTTP_SEC_FETCH_SITE] => same-origin
+    [HTTP_SEC_FETCH_MODE] => navigate
+    [HTTP_SEC_FETCH_DEST] => document
+    [HTTP_SEC_CH_UA] => "Google Chrome";v="137", "Chromium";v="137", "Not/A)Brand";v="24"
+    [HTTP_SEC_CH_UA_MOBILE] => ?0
+    [HTTP_SEC_CH_UA_PLATFORM] => "Linux"
+    [HTTP_REFERER] => http://localhost/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/index.php
+    [HTTP_ACCEPT_ENCODING] => gzip, deflate, br, zstd
+    [HTTP_ACCEPT_LANGUAGE] => en-US,en;q=0.9
+    [HTTP_COOKIE] => PHPSESSID=f8oqvek0ukr2csbvncgg0jd5n9
+    [PATH] => /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+    [LD_LIBRARY_PATH] => /opt/lampp/lib:/opt/lampp/lib
+    [SERVER_SIGNATURE] => 
+    [SERVER_SOFTWARE] => Apache/2.4.58 (Unix) OpenSSL/1.1.1w PHP/8.2.12 mod_perl/2.0.12 Perl/v5.34.1
+    [SERVER_NAME] => localhost
+    [SERVER_ADDR] => ::1
+    [SERVER_PORT] => 80
+    [REMOTE_ADDR] => ::1
+    [DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [REQUEST_SCHEME] => http
+    [CONTEXT_PREFIX] => 
+    [CONTEXT_DOCUMENT_ROOT] => /opt/lampp/htdocs
+    [SERVER_ADMIN] => you@example.com
+    [SCRIPT_FILENAME] => /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REMOTE_PORT] => 51152
+    [GATEWAY_INTERFACE] => CGI/1.1
+    [SERVER_PROTOCOL] => HTTP/1.1
+    [REQUEST_METHOD] => GET
+    [QUERY_STRING] => 
+    [REQUEST_URI] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [SCRIPT_NAME] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [PHP_SELF] => /KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php
+    [REQUEST_TIME_FLOAT] => 1750159390.6723
+    [REQUEST_TIME] => 1750159390
+)
+
+[17-Jun-2025 13:23:10 Europe/Berlin] === END ERROR ===
+[17-Jun-2025 13:24:33 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:24:33 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:24:33 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:24:33 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:24:33 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:24:33 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:24:33 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:24:33 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:24:33 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:24:33 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:24:33 Europe/Berlin] Generated OTP 2915 for phone 0702502952
+[17-Jun-2025 13:24:33 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:24:33 Europe/Berlin] OTP found in session: 2915
+[17-Jun-2025 13:24:33 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:24:33 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:24:33 Europe/Berlin] Generated OTP 6491 for phone 0702502952
+[17-Jun-2025 13:24:33 Europe/Berlin] User is blacklisted. OTP 6491 for phone 0702502952
+[17-Jun-2025 13:25:27 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:25:27 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:25:27 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:25:27 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:25:27 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:25:27 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:25:27 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:25:27 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:25:27 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:25:27 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:25:27 Europe/Berlin] Generated OTP 5391 for phone 0702502952
+[17-Jun-2025 13:25:27 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:25:27 Europe/Berlin] OTP found in session: 5391
+[17-Jun-2025 13:25:27 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:25:27 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:25:27 Europe/Berlin] Generated OTP 7007 for phone 0702502952
+[17-Jun-2025 13:25:27 Europe/Berlin] User is blacklisted. OTP 7007 for phone 0702502952
+[17-Jun-2025 13:26:08 Europe/Berlin] === OTP Form Script Started ===
+[17-Jun-2025 13:26:08 Europe/Berlin] Session started. Session ID: f8oqvek0ukr2csbvncgg0jd5n9
+[17-Jun-2025 13:26:08 Europe/Berlin] Session data: Array
+(
+)
+
+[17-Jun-2025 13:26:08 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[17-Jun-2025 13:26:08 Europe/Berlin] Attempting to connect to database...
+[17-Jun-2025 13:26:08 Europe/Berlin] Database connection successful
+[17-Jun-2025 13:26:08 Europe/Berlin] Processing phone number: 0702502952
+[17-Jun-2025 13:26:08 Europe/Berlin] Including voter login data file: /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php
+[17-Jun-2025 13:26:08 Europe/Berlin] PHP Warning:  Undefined variable $password in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:26:08 Europe/Berlin] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/includes/voter_login_data.php on line 17
+[17-Jun-2025 13:26:08 Europe/Berlin] Generated OTP 7985 for phone 0702502952
+[17-Jun-2025 13:26:08 Europe/Berlin] Successfully included voter login data file
+[17-Jun-2025 13:26:08 Europe/Berlin] OTP found in session: 7985
+[17-Jun-2025 13:26:09 Europe/Berlin] SMS Send Result: Array
+(
+    [status] => success
+    [data] => stdClass Object
+        (
+            [SMSMessageData] => stdClass Object
+                (
+                    [Message] => Sent to 0/1 Total Cost: 0
+                    [Recipients] => Array
+                        (
+                            [0] => stdClass Object
+                                (
+                                    [cost] => 0
+                                    [messageId] => None
+                                    [number] => +254702502952
+                                    [status] => UserInBlacklist
+                                    [statusCode] => 406
+                                )
+
+                        )
+
+                )
+
+        )
+
+)
+
+[17-Jun-2025 13:26:09 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
+[17-Jun-2025 13:26:09 Europe/Berlin] Generated OTP 6893 for phone 0702502952
+[17-Jun-2025 13:26:09 Europe/Berlin] User is blacklisted. OTP 6893 for phone 0702502952

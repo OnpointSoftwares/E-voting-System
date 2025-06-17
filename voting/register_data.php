@@ -17,6 +17,9 @@ use AfricasTalking\SDK\AfricasTalking;
     $dob=$_POST['dob'];
     $gender=$_POST['gender'];
     $phone=$_POST['phone'];
+    $email=$_POST['email'];
+    $password=$_POST['password'];
+    $confirm_password=$_POST['confirm_password'];
     //$address="$_POST['address'];"
     $address="";
     if(isset($_POST['register']))
@@ -25,7 +28,27 @@ use AfricasTalking\SDK\AfricasTalking;
             $date1=new DateTime("$dob");
             $date2=new DateTime("now");
             $dateDiff=$date1->diff($date2);
-           
+           if($password!=$confirm_password)
+           {
+               echo "<script> 
+                        alert('Password does not match')
+                        history.back()
+                    </script>";
+           }
+           else if($password=="")
+           {
+               echo "<script> 
+                        alert('Password is required')
+                        history.back()
+                    </script>";
+           }
+           else if($confirm_password=="")
+           {
+               echo "<script> 
+                        alert('Confirm Password is required')
+                        history.back()
+                    </script>";
+           }
             if(strlen($phone)!=10)
             {
                 echo "<script> 
@@ -61,7 +84,7 @@ use AfricasTalking\SDK\AfricasTalking;
                 $folder="img/".$count.$filename;
                 move_uploaded_file($tempname,$folder);
 
-                $query="INSERT INTO register(fname,lname,idname,idnum,idcard,inst_id,dob,gender,phone,address,status,verify) VALUES('$fname','$lname','$idname','$idnum','$folder','$instidnum','$dob','$gender','$phone','$address','not voted','no')";
+                $query="INSERT INTO register(fname,lname,idname,idnum,idcard,inst_id,dob,gender,phone,email,address,password,verify) VALUES('$fname','$lname','$idname','$idnum','$folder','$instidnum','$dob','$gender','$phone','$email','$address','$password','no')";
                 $data=mysqli_query($con,$query);
 
                 if($data)
@@ -74,8 +97,8 @@ use AfricasTalking\SDK\AfricasTalking;
                         $to = '+' . $to;
                     }
                     
-                    $username = "voting_2025";
-                    $apiKey = "atsk_43275c85d8ce0d592027241dfd1c0e25263587306b8704d077361b77bda26cdadfe95800";
+                    $username = "MBNS";
+                    $apiKey = "atsk_15816eb5aabd188032279125489cefad2b764fb1b62db1800392a807bd9ad444cd7d6636";
                     $message = "Thank you for Registering in Online Voting System";
                     
                     try {

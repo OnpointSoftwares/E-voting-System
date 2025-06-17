@@ -14,7 +14,7 @@ if (!isset($phone) || empty(trim($phone))) {
 
 // Sanitize phone number
 $phone = trim($phone);
-
+$password = trim($password);
 // Check if resend flag is set
 $isResend = isset($resend) && $resend == 1;
 
@@ -48,7 +48,7 @@ try {
     $_SESSION['idcard'] = $result['idcard'];
     $_SESSION['verify'] = $result['verify'];
     $_SESSION['status'] = $result['status'];
-    
+    $_SESSION['password'] = $result['password'];
     // Check if user is verified
     if ($_SESSION['verify'] !== "yes") {
         echo "

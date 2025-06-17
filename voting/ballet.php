@@ -2,10 +2,13 @@
 
     session_start();
     error_reporting(0);
+    echo $_SESSION['userLogin'];
+    /*
     if($_SESSION['userLogin']!=1)
     {
         header("location:index.php");
     }
+    */
     include "includes/all-select-data.php";
 
     $start=$_GET['start'];
