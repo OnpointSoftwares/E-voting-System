@@ -4,25 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Voting System</title>
+    <title>Solypark Opinion Poll System</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Optionally keep your custom CSS if needed -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
-        <div class="left-body">
-            <h1 class="logo"><span>Voting</span>System</h1>
-            <h2 class="logo">What is <span>online Voting System</span> ?</h2>
-            <p>
-                An Online Voting System is a software platform that allows organizations,banks and Institutes to conduct
-                votes and elections through internet.
-            </p>
-            <div class="link">Already have an account ? <a href="voting/">Login as Voter</a></div>
-            <div class="link">Don't have an account ? <a href="voting/registration.php">Register as Voter</a></div>
-            <div class="link">Administrator this site ? <a href="voting/admin/">Login as Admin</a></div>
-        </div>
-        <div class="right-body">
-            <img src="voting/res/2.jpeg">
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <div class="col-md-6 mb-4 mb-md-0">
+                <h1 class="display-5 fw-bold mb-3"><span class="text-primary">Solypark</span> Opinion Poll System</h1>
+                <h2 class="h4 mb-3">What is <span class="text-primary">Solypark Opinion Poll System</span>?</h2>
+                <p class="mb-4">
+                    A Solypark Opinion Poll System is a software platform that allows organizations, banks, and institutes to conduct votes and elections through the internet.
+                </p>
+                <div class="d-grid gap-2">
+                    <a href="voting/" class="btn btn-success btn-lg">Login as Voter</a>
+                    <a href="voting/registration.php" class="btn btn-outline-primary btn-lg">Register as Voter</a>
+                    <a href="voting/admin/" class="btn btn-dark btn-lg">Login as Admin</a>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <img src="voting/res/2.jpeg" class="img-fluid rounded shadow" alt="Solypark Poll System Illustration">
+            </div>
         </div>
     </div>
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

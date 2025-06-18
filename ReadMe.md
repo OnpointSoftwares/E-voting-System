@@ -1,8 +1,8 @@
-**Voting System**
+**Solypark Opinion Poll System**
 
 ## Introduction
 
-This is a web-based online voting system that allows voters to vote for their preferred candidates in an election. The system is designed to be user-friendly and easy to use, with a simple and intuitive interface. It also provides a secure and reliable way for voters to cast their votes, with features such as password protection and OTP verification.
+This is a web-based Solypark Opinion Poll System that allows voters to vote for their preferred candidates in an election. The system is designed to be user-friendly and easy to use, with a simple and intuitive interface. It also provides a secure and reliable way for voters to cast their votes, with features such as password protection and OTP verification.
 
 ##Features
 

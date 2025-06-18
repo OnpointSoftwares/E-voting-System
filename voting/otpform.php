@@ -40,7 +40,8 @@ try {
 
     // Database connection
     error_log("Attempting to connect to database...");
-    $con = @mysqli_connect("localhost", "root", "", "voting");
+    $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
+
     if (!$con) {
         throw new Exception("Failed to connect to MySQL: " . mysqli_connect_error());
     }
@@ -152,7 +153,7 @@ try {
                 $mail->Port       = 587;
                 
                 // Recipients
-                $mail->setFrom('noreply@yourdomain.com', 'E-Voting System');
+                $mail->setFrom('noreply@yourdomain.com', 'Solypark Opinion Poll System');
                 $mail->addAddress($email, 'User'); // Replace with user's email
                 
                 // Content
@@ -375,7 +376,7 @@ try {
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Voting System</title>
+    <title>Solypark Opinion Poll System</title>
     <link rel="stylesheet" href="css/style.css">
     <style type="text/css">
         .form-header {
@@ -490,7 +491,7 @@ try {
 <body>
     <div class="container">
         <div class="heading">
-            <h1>Online Voting System</h1>
+            <h1>Solypark Opinion Poll System</h1>
         </div>
         <div class="form">
             <div class="form-header">
@@ -498,12 +499,12 @@ try {
                 <p class="otp-instruction">We've sent a 6-digit verification code to your phone number ending with <?php echo substr($_SESSION['phone'] ?? '', -4); ?></p>
             </div>
             <form action="voting-system.php" method="POST" class="otp-form">
-                <div class="form-group">
-                    <label for="otp" class="label">Enter OTP Code</label>
+                <div class="mb-3">
+                    <label for="otp" class="form-label">Enter OTP Code</label>
                     <div class="otp-inputs">
-                        <input type="text" name="otp1" class="otp-input" maxlength="1" pattern="\d" inputmode="numeric" required autofocus>
-                        <input type="text" name="otp2" class="otp-input" maxlength="1" pattern="\d" inputmode="numeric" required>
-                        <input type="text" name="otp3" class="otp-input" maxlength="1" pattern="\d" inputmode="numeric" required>
+                        <input type="text" name="otp1" class="form-control otp-input" maxlength="1" pattern="\d" inputmode="numeric" required autofocus>
+                        <input type="text" name="otp2" class="form-control otp-input" maxlength="1" pattern="\d" inputmode="numeric" required>
+                        <input type="text" name="otp3" class="form-control otp-input" maxlength="1" pattern="\d" inputmode="numeric" required>
                         <span>-</span>
                         <input type="text" name="otp4" class="otp-input" maxlength="1" pattern="\d" inputmode="numeric" required>
                         <input type="text" name="otp5" class="otp-input" maxlength="1" pattern="\d" inputmode="numeric" required>

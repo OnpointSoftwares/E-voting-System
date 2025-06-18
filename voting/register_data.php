@@ -99,7 +99,7 @@ use AfricasTalking\SDK\AfricasTalking;
                     
                     $username = "MBNS";
                     $apiKey = "atsk_15816eb5aabd188032279125489cefad2b764fb1b62db1800392a807bd9ad444cd7d6636";
-                    $message = "Thank you for Registering in Online Voting System";
+                    $message = "Thank you for Registering in Solypark Opinion Poll System";
                     
                     try {
                         $at = new AfricasTalking($username, $apiKey);
@@ -157,7 +157,7 @@ use AfricasTalking\SDK\AfricasTalking;
             {
                 $username="voting2025";
                 $apiKey="atsk_43275c85d8ce0d592027241dfd1c0e25263587306b8704d077361b77bda26cdadfe95800";
-                $message="Thank you for Registering in Online Voting System";
+                $message="Thank you for Registering in Solypark Opinion Poll System";
                 $to="$phone";
                 $at = new AfricasTalking($username, $apiKey);
                 $sms = $at->sms();
