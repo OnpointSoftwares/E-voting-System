@@ -236,6 +236,7 @@ try {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Error - OTP Verification</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
         <style>
             body { 
                 font-family: Arial, sans-serif; 
@@ -316,8 +317,8 @@ try {
         </style>
     </head>
     <body>
-        <div class="error-container">
-            <h1 class="error-header">An Error Occurred</h1>
+        <div class="error-container row g-3">
+            <h1 class="error-header text-center">An Error Occurred</h1>
             
             <div class="error-message">
                 <strong>Error:</strong> <?php echo htmlspecialchars($errorMsg); ?>
@@ -325,7 +326,7 @@ try {
                 <small>File: <?php echo htmlspecialchars($errorFile); ?> (Line: <?php echo $errorLine; ?>)</small>
             </div>
             
-            <h3>Debug Information:</h3>
+            <h3 class="text-center">Debug Information:</h3>
             <div class="debug-info">
                 <strong>Time:</strong> <?php echo date('Y-m-d H:i:s'); ?>
                 
@@ -489,12 +490,12 @@ try {
 </head>
 
 <body>
-    <div class="container">
+    <div class="container mt-5">
         <div class="heading">
             <h1>Solypark Opinion Poll System</h1>
         </div>
-        <div class="form">
-            <div class="form-header">
+        <div class="form row g-3">
+            <div class="form-header text-center">
                 <h2>OTP Verification</h2>
                 <p class="otp-instruction">We've sent a 6-digit verification code to your phone number ending with <?php echo substr($_SESSION['phone'] ?? '', -4); ?></p>
             </div>

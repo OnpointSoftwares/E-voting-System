@@ -1439,3 +1439,21 @@ Stack trace:
 [17-Jun-2025 13:26:09 Europe/Berlin] PHP Warning:  Undefined variable $isTestMode in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 175
 [17-Jun-2025 13:26:09 Europe/Berlin] Generated OTP 6893 for phone 0702502952
 [17-Jun-2025 13:26:09 Europe/Berlin] User is blacklisted. OTP 6893 for phone 0702502952
+[18-Jun-2025 17:53:22 Europe/Berlin] === OTP Form Script Started ===
+[18-Jun-2025 17:53:22 Europe/Berlin] Session started. Session ID: eiibq51irc7lk00mmm6k1n62n3
+[18-Jun-2025 17:53:22 Europe/Berlin] Session data: Array
+(
+)
+
+[18-Jun-2025 17:53:22 Europe/Berlin] POST data: Array
+(
+    [phone] => 0702502952
+    [login] => 
+)
+
+[18-Jun-2025 17:53:22 Europe/Berlin] Attempting to connect to database...
+[18-Jun-2025 17:53:22 Europe/Berlin] PHP Fatal error:  Uncaught mysqli_sql_exception: Access denied for user 'dxusvdvu_voting'@'localhost' (using password: YES) in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php:43
+Stack trace:
+#0 /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php(43): mysqli_connect('localhost', 'dxusvdvu_voting', Object(SensitiveParameterValue), 'dxusvdvu_voting')
+#1 {main}
+  thrown in /opt/lampp/htdocs/KENYA-ELECTION-SYSTEM-main/Web-Based-Online-Voting-System-main/Online_Voting_System/voting/otpform.php on line 43

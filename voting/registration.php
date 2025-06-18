@@ -5,12 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Voting System</title>
+    <title>Solypark Opinion Poll System</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
    <div class="container">
-        <div class="heading"><h1>Online Voting System</h1></div>
+        <div class="heading"><h1>Solypark Opinion Poll System</h1></div>
         <form action="register_data.php" method="POST" enctype="multipart/form-data">
             <div class="form">
                 <h4>Voter Registraton</h4>

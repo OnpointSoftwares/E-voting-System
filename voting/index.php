@@ -13,20 +13,21 @@ $_SESSION['userLogin'] = 0;
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Voting System</title>
+    <title>Solypark Opinion Poll System</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="container">
-        <div class="heading">
-            <h1>Online Voting System</h1>
+    <div class="container mt-5">
+        <div class="heading text-center">
+            <h1>Solypark Opinion Poll System</h1>
         </div>
-        <div class="form">
+        <div class="form row g-3">
             <h4>Voter Login</h4>
-            <form action="otpform.php" method="POST">
+            <form action="otpform.php" method="POST" enctype="multipart/form-data">
                 <label class="label">Phone Number:</label>
-                <input type="text" name="phone" id="" class="input" placeholder="Enter Phone Number" required>
+                <input type="text" name="phone" id="" class="input form-control" placeholder="Enter Phone Number" required>
 
                 <button class="button" name="login">Login</button>
                 <div class="link1">New user ? <a href="registration.php">Register here</a></div>

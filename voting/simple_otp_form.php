@@ -11,7 +11,8 @@ if (!isset($_SESSION['otp'])) {
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Enter OTP</title>
+    <title>Enter Password</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -72,17 +73,18 @@ if (!isset($_SESSION['otp'])) {
     </style>
 </head>
 <body>
-    <div class="otp-box">
-        <h2>Enter Password</h2>
+    <div class="container mt-5">
+    <div class="otp-box row g-3">
+        <h2 class="text-center">Enter Password</h2>
         <p>Enter the 6-digit password</p>
         
-        <form method="post" action="verify_otp_handler.php">
-            <div class="otp-inputs">
+        <form method="post" action="verify_otp_handler.php" enctype="multipart/form-data">
+            <div class="otp-inputs row g-3">
                 <?php for ($i = 1; $i <= 6; $i++): ?>
-                    <input type="text" name="otp<?php echo $i; ?>" class="otp-input" maxlength="1" pattern="\d" required>
+                    <input type="text" name="otp<?php echo $i; ?>" class="otp-input form-control" maxlength="1" pattern="\d" required>
                 <?php endfor; ?>
             </div>
-            <button type="submit" class="submit-btn">Verify Password</button>
+            <button type="submit" class="submit-btn btn btn-primary">Verify Password</button>
         </form>
         
         <?php if (isset($_GET['error'])): ?>
@@ -91,7 +93,7 @@ if (!isset($_SESSION['otp'])) {
             </div>
         <?php endif; ?>
     </div>
-
+    </div>
     <script>
     // Auto-focus first input
     document.addEventListener('DOMContentLoaded', function() {

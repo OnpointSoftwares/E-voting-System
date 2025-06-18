@@ -30,7 +30,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Online Voting System</title>
+    <title>Solypark Opinion Poll System</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.min.css">
     <style>
@@ -46,12 +46,13 @@
             margin-bottom: 1rem;
         }
     </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
 </head>
 <body>
     <div class="container">
-    <div class="heading"><h1>Online Voting System</h1></div>
-    <div class="header">
-            <span class="logo">Voting System</span>
+    <div class="heading row g-3"><h1>Solypark Opinion Poll System</h1></div>
+    <div class="header row g-3">
+            <span class="logo">Solypark Opinion Poll System</span>
             <span class="profile" onclick="showProfile()"><img src="<?php echo $_SESSION['idcard']; ?>" alt=""><label><?php echo$_SESSION['fname']." ".$_SESSION['lname'];?></label></span>
         </div>
         <div id="profile-panel">
@@ -62,7 +63,7 @@
             </div>
             <div class="link"><a href="includes/user-logout.php" class="del"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></div>
         </div>
-        <div class="main">
+        <div class="main row g-3">
             <table class="table">
                 <thead>
                     <th>Vote</th>
@@ -71,7 +72,7 @@
                     <th>position</th>
                 </thead>
                 <tbody>
-                    <form action="cal_vote.php" method="POST">
+                    <form action="cal_vote.php" method="POST" enctype="multipart/form-data">
                 <?php 
                 
                     while($pos_result=mysqli_fetch_assoc($pos_data))
@@ -82,9 +83,9 @@
                         while($result=mysqli_fetch_assoc($data))
                         {
                             echo "
-                            <tr>
+                            <tr class='row g-3'>
                                 <td>
-                                    <input type='radio' name='".$pos_result['position_name']."' value='".$result['id']."' class='vote' required>
+                                    <input type='radio' name='".$pos_result['position_name']."' value='".$result['id']."' class='vote form-control' required>
                                     <label class='check'>&#10004;</label>
                                 </td>
                                     <td>
@@ -99,7 +100,7 @@
                         }
                     }
                 ?>
-                <td colspan="4"><button class="button" name="vote">Vote</button></td>
+                <td colspan="4"><button class="button btn btn-primary" name="vote">Vote</button></td>
                 </form>
                 </tbody>
             </table>
