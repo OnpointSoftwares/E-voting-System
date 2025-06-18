@@ -24,7 +24,7 @@ else
 }
 
 
-$con = mysqli_connect("localhost", "root", "", "voting");
+$con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
 $val_query = "SELECT * FROM voting";
 $val_data = mysqli_query($con, $val_query);
 $val_result = mysqli_fetch_assoc($val_data);

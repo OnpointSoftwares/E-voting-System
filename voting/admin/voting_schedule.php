@@ -25,7 +25,7 @@
 </html>
 <?php
 
-    $con=mysqli_connect("localhost","root","","voting");
+    $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
     if(isset($_POST['set']))
     {
         $starting = $_POST['start'];

@@ -56,7 +56,7 @@ if($_SESSION['adminLogin']!=1)
 
     if(isset($_POST['register']))
     {
-        $con=mysqli_connect("localhost","root","","voting");
+        $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
         $cname=$_POST['cname'];
         $csymbol=$_POST['csymbol'];
         $position=$_POST['position'];

@@ -7,7 +7,7 @@
     include "../includes/all-select-data.php";
 
         $email=$_POST['email'];
-        $con=mysqli_connect('localhost','root','','voting');
+        $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
 
         $query="SELECT * FROM admin where email='$email'";
         $data=mysqli_query($con,$query);

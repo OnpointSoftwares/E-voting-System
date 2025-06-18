@@ -66,7 +66,7 @@ if($_SESSION['adminLogin']!=1)
                <tbody>
                       <?php
                       
-                      $con=mysqli_connect('localhost','root','','voting');
+                      $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
                   
                       $query="SELECT * FROM phno_change";
                   

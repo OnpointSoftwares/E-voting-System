@@ -33,7 +33,7 @@ $id=$_GET['id'];
     if(isset($_POST['update']))
     {
         $position=$_POST['position'];
-        $con=mysqli_connect("localhost","root","","voting");
+        $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
         $query="UPDATE can_position SET position_name='$position' where id='$id'";
 
         $data=mysqli_query($con,$query);

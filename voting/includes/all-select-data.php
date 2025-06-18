@@ -1,5 +1,5 @@
 <?php
-$con = mysqli_connect("localhost","root","","voting");
+$con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
 
 // candidate data
 $can_query="SELECT * FROM candidate";

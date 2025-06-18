@@ -1,6 +1,6 @@
 <?php
 
-$con=mysqli_connect("localhost","root","","voting");
+$con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
 
 $rst_cand_query = "UPDATE candidate SET tvotes=''";
 $rst_cand_data = mysqli_query($con,$rst_cand_query);

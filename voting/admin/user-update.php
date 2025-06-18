@@ -56,7 +56,7 @@ $ad  =$_GET['ad'];
         $address=$_POST['address'];
         $idnum=$_POST['idnum'];
         $phone=$_POST['phone'];
-        $con=mysqli_connect("localhost","root","","voting");
+        $con = mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
 
         $query1="UPDATE applyforvoting SET phone='$phone' WHERE phone='$ph'";
         $query2="UPDATE register SET fname='$fname',lname='$lname',email='$email',idnum='$idnum',phone='$phone',address='$address' WHERE phone='$ph'";
