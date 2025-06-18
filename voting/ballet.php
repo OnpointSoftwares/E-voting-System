@@ -83,7 +83,7 @@
                         while($result=mysqli_fetch_assoc($data))
                         {
                             echo "
-                            <tr class='row g-3'>
+                            <tr>
                                 <td>
                                     <input type='radio' name='".$pos_result['position_name']."' value='".$result['id']."' class='vote form-control' required>
                                     <label class='check'>&#10004;</label>
