@@ -24,7 +24,7 @@ use AfricasTalking\SDK\AfricasTalking;
     $address="";
     if(isset($_POST['register']))
     {
-            $con=mysqli_connect("localhost","root","","voting");
+            $con=mysqli_connect("localhost","dxusvdvu_voting","Koskey@2024","dxusvdvu_voting");
             $date1=new DateTime("$dob");
             $date2=new DateTime("now");
             $dateDiff=$date1->diff($date2);
